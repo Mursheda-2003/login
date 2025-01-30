@@ -1,0 +1,9 @@
+/* body{
+    background-image: url(/assets/Logo/background.png);
+    background-repeat: no-repeat;
+    height: 500px;
+} */
+body div{
+    display: flex;
+    
+ }

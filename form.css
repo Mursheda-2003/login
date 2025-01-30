@@ -1,0 +1,77 @@
+/* form css start here */
+form{
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: sans-serif;
+}
+form legend{
+    color: salmon;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+label{
+    font-size: 18px;
+}
+sup{
+    font-size: 18px;
+    color: red;
+    font-weight: 700;
+}
+input{
+    width: 290px;
+    font-size: 18px;
+    margin: 2px 0px 15px 0px;
+    background-color: aliceblue;
+    padding: 10px 5px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+div button{
+    border: none;
+    background-color: aliceblue;
+    width: 260px;
+    padding-bottom: 12.5px;
+    padding-bottom: 12.5px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid black;
+    cursor: pointer; 
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=checkox]{
+    width: 20px;
+    margin: 0px;
+}
+div p a{
+    border-bottom: 2px solid blue;
+    background: linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input:focus{
+outline: none;
+}
+input[type=submit]{
+    color: white;
+    margin-top: 20px 0px 0px 0px;
+    background-color: blue;
+    border-radius: 10px;
+    border-bottom: 4px solid salmon;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: salmon;
+    border-bottom: 4px solid blue;
+}
+p{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}

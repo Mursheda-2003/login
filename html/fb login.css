@@ -1,0 +1,119 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2f4f7;
+    font-family: sans-serif;
+}
+/* left side css */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5%;
+}
+.container h3{
+    color: #0866ff;
+    font-size: 76px;
+}
+.container p{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+/* form css */
+.container form{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 8px 16px rgb(0, 0, 0, 1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width:330px;
+    
+}
+input[type=text]:focus{
+    border: 1px solid #0866ff;
+    outline: none;
+}
+input[type=password]{
+    width: 344px;
+    display: block;
+    margin: auto;
+    line-height: 28px;
+    padding: 6px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    caret-color: #0866ff;
+    outline: none;
+}
+input[type-password]:focus{
+    border: 1px solid #0866ff;
+}
+input[type-submit]{
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 28px;
+    width: 364px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 6px 0px;
+    background-color: #0866ff;
+    border: 0;
+    cursor: pointer;
+
+}
+a{
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500px;
+    margin-left: 130px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 364px;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn{
+    width: 264px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+button{
+    color: white;
+    font-size: 22px;
+    background-color: #42b72a;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+div,
+p,
+span{
+    font-size: 16px;
+}
+div,
+a{
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
